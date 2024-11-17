@@ -216,6 +216,8 @@
 	[clearstack]
 
 ;	ゲーム復帰
+	[layopt layer="message0" visible="true"]
+	[jump storage=first.ks target=*start]
 	[awakegame]
 
 ;================================================================================
